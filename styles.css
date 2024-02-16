@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DFD8CC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    height: 8vh;
+    width: 100%;
+    background-color: #4C8355;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    height: 8vh;
+    background-color: #4C8355;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article {
+    background-color: #81c784;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+h2 {
+    margin: 1rem;
+    padding: 1vh;
+    background-color: #81c784;
+    border-radius: 1rem;
+}
+
+p {
+    text-align: left;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    background-color: #4C8355;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+header {
+    display: flex;
+    text-align: center;
+}
+
+
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 15vw;
+    height: 7.5vh;
+}
+
+main img {
+    width: 100vw;
+    height: 50vh;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+footer p {
+    color: #DFD8CC;
+    text-align: center;
+}
+
+nav img {
+    height: 8vh;
+}
+
+
+
+.green_background {
+    background-color: #4C8355;
+}
+
+.red {
+    background-color: #D06E6A;
+}
+
+.orange {
+    background-color: #D78F6D;
+}
+
+.yellow {
+    background-color: #ECDA76;
+}
+
+.green {
+    background-color: #89DC6F;
+}
+
+.blue {
+    background-color: #6E7BD8;
+}
+
+.purple {
+    background-color: #D486E7;
+}
+
+.red_text {
+    color: #D06E6A;
+}
+
+.orange_text {
+    color: #D78F6D;
+}
+
+.yellow_text {
+    color: #ECDA76;
+}
+
+.green_text {
+    color: #89DC6F;
+}
+
+.dark_green_text {
+    color: #4C8355;
+}
+
+.blue_text {
+    color: #6E7BD8;
+}
+
+.purple_text {
+    color: #D486E7;
+}
+
+.index_logo {
+    box-shadow: black;
+    height: 15vh;
+    width: 80vw;
+}
+
+.speld {
+    width: 17vw;
+    height: 10vh;
+}
+
+.pijl {
+    height: 10vh;
+    width: 30vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
